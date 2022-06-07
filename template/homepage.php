@@ -9,9 +9,18 @@
 </head>
 
 <body>
-    Bienvenue sur Infinity ! Actualités gaming, classements de jeux
-    hebdomadaires, offres à ne pas manquer...quelle que soit votre
-    plateforme préférée, nous sommes là pour vous guider !
+    <header>
+        Infinity
+    </header>
+    <main>
+        Bienvenue sur Infinity ! Actualités gaming, classements de jeux
+        hebdomadaires, offres à ne pas manquer...quelle que soit votre
+        plateforme préférée, nous sommes là pour vous guider !
+    </main>
+<footer>
+    Pour ne rien manquer, abonnez-vous à notre Newsletter :
+    Retrouvez-nous sur les réseaux !
+</footer>
 </body>
 
 </html>
