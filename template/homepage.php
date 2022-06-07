@@ -30,7 +30,7 @@
                 <button type="submit">S'abonner</button>
             </div>
         </form>
-        Retrouvez-vous sur les réseaux !
+        Retrouvez-nous sur les réseaux !
     </footer>
 </body>
 
