@@ -5,12 +5,13 @@ try
 {
     $sql = "INSERT INTO newsletter (email) value (?);";
     $db= new PDO('mysql:host=localhost;db=infinity','root','');
-    $stmt = $db->prepare($sql);
-    $stmt->execute($pAdresseEmail);
+    echo $sql;
+    //$stmt = $db->prepare($sql);
+    $db->exec($sql);
 }
 catch (PDOException $e)
 {
-    echo "erreur=".$e->getMessage();
+    echo "Erreur=".$e->getMessage();
 }
 }
 ?>
