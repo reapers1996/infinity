@@ -6,5 +6,6 @@ if (isset($_POST["subscriber_email"]))
 {
 inscrireNewsletter($_POST["subscriber_email"]);
 }
+else
 controllerHomePage();
 ?>
