@@ -5,7 +5,7 @@ try
 {
     $sql = "INSERT INTO newsletter (`email`) value ('$pAdresseEmail');";
     $db= new PDO('mysql:host=localhost;dbname=infinity','root','');
-    echo $sql;
+  //  echo $sql;
     //$stmt = $db->prepare($sql);
     $db->query($sql);
 }
