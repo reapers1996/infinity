@@ -4,10 +4,10 @@ function AjouterEmailDatabase($pAdresseEmail)
 try
 {
     $sql = "INSERT INTO newsletter (email) value (?);";
-    $db= new PDO('mysql:host=localhost;db=infinity','root','');
+    $db= new PDO('mysql:host=localhost;dbname=infinity','root','');
     echo $sql;
     //$stmt = $db->prepare($sql);
-    $db->exec($sql);
+    $db->query($sql);
 }
 catch (PDOException $e)
 {
