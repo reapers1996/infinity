@@ -9,13 +9,29 @@
 </head>
 
 <body>
-    <div id="titre">
-        <img src="https://drive.google.com/file/d/1LBBWO8utXK8JWR9O0YfW3vysxihbWHLN/view?usp=sharing">
-        <h1>Infinity</h1>
-    </div>
-    Bienvenue sur Infinity ! Actualités gaming, classements de jeux
-    hebdomadaires, offres à ne pas manquer...quelle que soit votre
-    plateforme préférée, nous sommes là pour vous guider !
+    <header>
+        <div id="titre">
+            <img src="/infinity/assets/images/logoblanc.png">
+            <h1>Infinity</h1>
+        </div>
+    </header>
+    <nav>
+        1234
+    </nav>
+    <main>
+        Bienvenue sur Infinity ! Actualités gaming, classements de jeux
+        hebdomadaires, offres à ne pas manquer...quelle que soit votre
+        plateforme préférée, nous sommes là pour vous guider !
+    </main>
+    <footer>
+        Pour ne rien manquer, abonnez-vous à notre Newsletter:
+        <form method="POST">
+            <div><label for="email"></label> <input id="email" placeholder="Votre adresse e-mail" name="subscriber_email" type="email" />
+                <button type="submit">S'abonner</button>
+            </div>
+        </form>
+        Retrouvez-vous sur les réseaux !
+    </footer>
 </body>
 
 </html>
