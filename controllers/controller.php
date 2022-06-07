@@ -1,6 +1,6 @@
 <?php
 function controllerHomePage()
 {
-require_once("/xampp/htdocs/infinity/template/homepage.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/infinity/template/homepage.php");
 }
 ?>
