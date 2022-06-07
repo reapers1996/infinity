@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        Infinity
+        <h1>Infinity</h1>
     </header>
     <main>
         Bienvenue sur Infinity ! Actualités gaming, classements de jeux
